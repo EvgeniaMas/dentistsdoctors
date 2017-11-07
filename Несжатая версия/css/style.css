@@ -89,72 +89,21 @@ html {
 
 /*Стили шапки сайта */
 
-.header {
-    padding-top: 30px;
-    position: fixed;
-    z-index: 99;
-    top: 0;
-    right: 0;
-    left: 0;
-    background: #fff;
-    color: #000;
-}
 
 
 
-img#logo {
-    display: block;
-    
-    text-align: center;
-    width: 42px!important; 
-    height: 42px!important;
-}
-.brand2 {
-     border-right: 1px solid #000;
-}
-
-p#center {
-   width: 60%;
-   
-   box-sizing: border-box;
-   font-family: 'Roboto';
-   font-size: 1.2rem;
-   font-weight: 700;   
-   color: #2bb5af;
-   text-align: center;
-   
-  
-   display: inline-block;
-  padding-bottom: 15px;
-   
-   
-}
-
-
-#center_title {
-    width: 20%;
-  font-family: 'Roboto';
-  font-size: 1.450rem;
-  font-weight: bold; 
-  
-  
-  display: inline-block;
-  
-}
-
-
-
-.brand {
-   display: flex;
-    box-sizing: border-box;
-    
-}
 
 @media screen and (max-width:1200px) {
     .brand2 {
    
     border-right: none;
 }
+
+
+.price {
+    
+    text-align: right;
+     }
 
 
 header .phone
@@ -166,16 +115,7 @@ font-size: 20px!important;
 }
 
 
-#time_of_work{
-  box-sizing: border-box;
-  font-family: 'Open Sans Semibold'; 
-  font-size: 14px; 
-}
 
-.glyphicon-earphone {
-     color: #2bb5af;
-     font-size: 16px;
- }
 
 
 .we_do {
@@ -1549,18 +1489,7 @@ footer .i1.v11:hover {
 }
 
 
-.social {
-     margin-top: 8px;
-}
 
-.firstscreen {
-    position: relative;
-    height: 487px;   
-    background: url(../img/first_screen2.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    
-}
 
 
 .second_screen {
@@ -1789,7 +1718,7 @@ a.btn.more_information {
 
 .price {
     display: inline-block;
-    text-align: right;
+    text-align: left;
      font-family: 'Open Sans Bold', arial;
     font-weight: bold;
 
@@ -2264,14 +2193,6 @@ input.sign_on {
 .well {
     padding-top: 5px!important;
 }
-.wrapper {
-    margin:auto;
-    height: 100%;    
-}
-
-
-
-
 
 
 
