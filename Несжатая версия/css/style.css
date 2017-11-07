@@ -59,6 +59,7 @@ html {
     height: 100%;   
     margin:0;
     padding: 0;
+    // overflow-x: hidden;
 }
 
 body {
@@ -108,17 +109,20 @@ img#logo {
     width: 42px!important; 
     height: 42px!important;
 }
-
+.brand2 {
+     border-right: 1px solid #000;
+}
 
 p#center {
    width: 60%;
-    
+   
    box-sizing: border-box;
    font-family: 'Roboto';
-   font-size: 1.250rem;
+   font-size: 1.2rem;
    font-weight: 700;   
    color: #2bb5af;
    text-align: center;
+   
   
    display: inline-block;
   padding-bottom: 15px;
@@ -143,14 +147,16 @@ p#center {
 .brand {
    display: flex;
     box-sizing: border-box;
-    border-right: 1px solid #000;
+    
 }
 
 @media screen and (max-width:1200px) {
-    .brand {
+    .brand2 {
    
     border-right: none;
 }
+
+
 header .phone
 {
 
@@ -1549,12 +1555,11 @@ footer .i1.v11:hover {
 
 .firstscreen {
     position: relative;
-    height: 487px;
-   
+    height: 487px;   
     background: url(../img/first_screen2.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
-    margin-top: 119px;
+    
 }
 
 
@@ -2259,7 +2264,10 @@ input.sign_on {
 .well {
     padding-top: 5px!important;
 }
-
+.wrapper {
+    margin:auto;
+    height: 100%;    
+}
 
 
 
