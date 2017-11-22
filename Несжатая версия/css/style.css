@@ -331,10 +331,16 @@ ul.vib li.active a.li_btn
 }
 
 
+
+
+
+
 @media screen and (max-width : 992px){
 html{
     overflow-x: scroll;
 }
+
+
 
  input {
     padding-bottom: 6px;
@@ -2194,6 +2200,13 @@ input.sign_on {
     padding-top: 5px!important;
 }
 
+
+@media screen and (max-width : 768px){
+   .header {
+   
+    position: relative;
+   
+}
 
 
 

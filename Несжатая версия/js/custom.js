@@ -1,25 +1,39 @@
-      
+      var browserwidth = window.innerWidth;
+      console.log(browserwidth);
+
         $(document).ready(function(){
+
+    if (browserwidth >768) {
        var header = document.getElementById('fixedheader');
 
         var headerHeight = header.clientHeight; 
        
         var firstScreen = document.getElementById('firstscreen');
-        
+                  
         firstScreen.style.marginTop = headerHeight + 'px';
+      }
+      else {
+        firstScreen.style.marginTop = 10 + 'px';
+      }
         
 
     })
 
-        $(window).resize(function(){
+        $(window).resize(function(){ 
+      if (browserwidth >768) {
           var header = document.getElementById('fixedheader');
 
         var headerHeight = header.clientHeight; 
        
         var firstScreen = document.getElementById('firstscreen');
       
+       
+      
         firstScreen.style.marginTop = headerHeight + 'px';
-        
+      }
+        else {
+        firstScreen.style.marginTop = 10 + 'px';
+      }
 
     })
 
